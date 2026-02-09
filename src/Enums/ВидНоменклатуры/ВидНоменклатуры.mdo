@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43309a01-5a68-4424-9f03-d2ce6a270b9b">
+  <producedTypes>
+    <refType typeId="3f1d373c-bdb4-484d-8362-153190a5c556" valueTypeId="5b888f8c-7e24-4f35-8ca2-1a79a3520ad1"/>
+    <listType typeId="cd01070d-ed8a-4b12-95a8-adc2c4930b03" valueTypeId="eb838429-ae30-4a36-a294-20ff9dc3d3bf"/>
+    <managerType typeId="35aba0a0-801f-4c23-8882-7add57a63a37" valueTypeId="a4f5015b-4796-47a2-8417-6ede64df6176"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce23cd3d-e49d-4979-a539-dd079ff2c1cd">
+    <name>Букет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Букет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="534f91c7-cfb5-42d1-8db1-ae87f9f6e467">
+    <name>Цветок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цветок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="276ddbd0-b039-48ff-8a2d-3fdf94004d1c">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95b64ca2-f21c-4abe-bbdc-595e779a0288">
+    <name>Игрушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрушка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50c2ff79-317b-41bb-8c67-8d804d7ea8a6">
+    <name>Композиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Композиция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aee7dd51-6484-4c11-85c1-56ed8555057e">
+    <name>Сувенир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сувенир</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

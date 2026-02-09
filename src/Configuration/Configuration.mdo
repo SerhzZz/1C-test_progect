@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dc2e443-bd64-4f1b-a94f-071f26101a90">
+  <name>GoBeyond</name>
+  <synonym>
+    <key>ru</key>
+    <value>Go beyond</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4cca75ce-ac5a-4220-9407-2e40cb2d4a48"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="004bb510-9aba-4f39-8cdb-7a1775688540"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="fd0ab64c-8eeb-40f2-a7cf-1072d874f22a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="98810ba6-39dc-48cc-b833-a9bacf67dfb4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4e25ccad-62f2-4484-88b6-87a98c06cd8f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5d176850-7b77-4b4a-9a27-82b1da994a9c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="cfbaa91e-51cf-4b2b-96b7-ef23f4926708"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="98cd5d8a-41b5-43e1-b1b8-77d2e26a0de4">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <constants>Constant.НаиминованиеОрганизации</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склад</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.СписаниеНекондиционногоТовара</documents>
+  <enums>Enum.ВидКонтрагента</enums>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <reports>Report.ПродажиТоваровПоКлиентам</reports>
+  <reports>Report.ПрайсЛист</reports>
+  <reports>Report.ОстаткиНаСкладах</reports>
+  <reports>Report.ОстатокВКассе</reports>
+  <informationRegisters>InformationRegister.ЦенаНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
